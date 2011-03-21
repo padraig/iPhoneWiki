@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A42C8921337538D00298961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42C8911337538D00298961 /* UIKit.framework */; };
+		1A42C8941337538D00298961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42C8931337538D00298961 /* Foundation.framework */; };
+		1A42C8961337538D00298961 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42C8951337538D00298961 /* CoreGraphics.framework */; };
+		1A42C89C1337538D00298961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C89A1337538D00298961 /* InfoPlist.strings */; };
+		1A42C89F1337538D00298961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C89E1337538D00298961 /* main.m */; };
+		1A42C8A21337538D00298961 /* iPhoneWikiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C8A11337538D00298961 /* iPhoneWikiAppDelegate.m */; };
+		1A42C8A51337538D00298961 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C8A31337538D00298961 /* MainWindow.xib */; };
+		1A42C8A81337538D00298961 /* iPhoneWikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C8A71337538D00298961 /* iPhoneWikiViewController.m */; };
+		1A42C8AB1337538D00298961 /* iPhoneWikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C8A91337538D00298961 /* iPhoneWikiViewController.xib */; };
+		1A42C8B21337538D00298961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42C8911337538D00298961 /* UIKit.framework */; };
+		1A42C8B31337538D00298961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42C8931337538D00298961 /* Foundation.framework */; };
+		1A42C8B41337538D00298961 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42C8951337538D00298961 /* CoreGraphics.framework */; };
+		1A42C8BC1337538D00298961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C8BA1337538D00298961 /* InfoPlist.strings */; };
+		1A42C8BF1337538D00298961 /* iPhoneWikiTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C8BE1337538D00298961 /* iPhoneWikiTests.h */; };
+		1A42C8C11337538D00298961 /* iPhoneWikiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C8C01337538D00298961 /* iPhoneWikiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A42C8B51337538D00298961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A42C8841337538D00298961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A42C88C1337538D00298961;
+			remoteInfo = iPhoneWiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A42C88D1337538D00298961 /* iPhoneWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A42C8911337538D00298961 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A42C8931337538D00298961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A42C8951337538D00298961 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A42C8991337538D00298961 /* iPhoneWiki-Info.plist */ = {isa = PBXFileReference; path = "iPhoneWiki-Info.plist"; sourceTree = "<group>"; };
+		1A42C89B1337538D00298961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A42C89D1337538D00298961 /* iPhoneWiki-Prefix.pch */ = {isa = PBXFileReference; path = "iPhoneWiki-Prefix.pch"; sourceTree = "<group>"; };
+		1A42C89E1337538D00298961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A42C8A01337538D00298961 /* iPhoneWikiAppDelegate.h */ = {isa = PBXFileReference; path = iPhoneWikiAppDelegate.h; sourceTree = "<group>"; };
+		1A42C8A11337538D00298961 /* iPhoneWikiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneWikiAppDelegate.m; sourceTree = "<group>"; };
+		1A42C8A41337538D00298961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1A42C8A61337538D00298961 /* iPhoneWikiViewController.h */ = {isa = PBXFileReference; path = iPhoneWikiViewController.h; sourceTree = "<group>"; };
+		1A42C8A71337538D00298961 /* iPhoneWikiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneWikiViewController.m; sourceTree = "<group>"; };
+		1A42C8AA1337538D00298961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iPhoneWikiViewController.xib; sourceTree = "<group>"; };
+		1A42C8B11337538D00298961 /* iPhoneWikiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneWikiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A42C8B91337538D00298961 /* iPhoneWikiTests-Info.plist */ = {isa = PBXFileReference; path = "iPhoneWikiTests-Info.plist"; sourceTree = "<group>"; };
+		1A42C8BB1337538D00298961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A42C8BD1337538D00298961 /* iPhoneWikiTests-Prefix.pch */ = {isa = PBXFileReference; path = "iPhoneWikiTests-Prefix.pch"; sourceTree = "<group>"; };
+		1A42C8BE1337538D00298961 /* iPhoneWikiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneWikiTests.h; sourceTree = "<group>"; };
+		1A42C8C01337538D00298961 /* iPhoneWikiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneWikiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A42C88A1337538D00298961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42C8921337538D00298961 /* UIKit.framework in Frameworks */,
+				1A42C8941337538D00298961 /* Foundation.framework in Frameworks */,
+				1A42C8961337538D00298961 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A42C8AD1337538D00298961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42C8B21337538D00298961 /* UIKit.framework in Frameworks */,
+				1A42C8B31337538D00298961 /* Foundation.framework in Frameworks */,
+				1A42C8B41337538D00298961 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A42C8821337538D00298961 = {
+			isa = PBXGroup;
+			children = (
+				1A42C8971337538D00298961 /* iPhoneWiki */,
+				1A42C8B71337538D00298961 /* iPhoneWikiTests */,
+				1A42C8901337538D00298961 /* Frameworks */,
+				1A42C88E1337538D00298961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A42C88E1337538D00298961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C88D1337538D00298961 /* iPhoneWiki.app */,
+				1A42C8B11337538D00298961 /* iPhoneWikiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A42C8901337538D00298961 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C8911337538D00298961 /* UIKit.framework */,
+				1A42C8931337538D00298961 /* Foundation.framework */,
+				1A42C8951337538D00298961 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A42C8971337538D00298961 /* iPhoneWiki */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C8A01337538D00298961 /* iPhoneWikiAppDelegate.h */,
+				1A42C8A11337538D00298961 /* iPhoneWikiAppDelegate.m */,
+				1A42C8A31337538D00298961 /* MainWindow.xib */,
+				1A42C8A61337538D00298961 /* iPhoneWikiViewController.h */,
+				1A42C8A71337538D00298961 /* iPhoneWikiViewController.m */,
+				1A42C8A91337538D00298961 /* iPhoneWikiViewController.xib */,
+				1A42C8981337538D00298961 /* Supporting Files */,
+			);
+			path = iPhoneWiki;
+			sourceTree = "<group>";
+		};
+		1A42C8981337538D00298961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C8991337538D00298961 /* iPhoneWiki-Info.plist */,
+				1A42C89A1337538D00298961 /* InfoPlist.strings */,
+				1A42C89D1337538D00298961 /* iPhoneWiki-Prefix.pch */,
+				1A42C89E1337538D00298961 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A42C8B71337538D00298961 /* iPhoneWikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C8BE1337538D00298961 /* iPhoneWikiTests.h */,
+				1A42C8C01337538D00298961 /* iPhoneWikiTests.m */,
+				1A42C8B81337538D00298961 /* Supporting Files */,
+			);
+			path = iPhoneWikiTests;
+			sourceTree = "<group>";
+		};
+		1A42C8B81337538D00298961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C8B91337538D00298961 /* iPhoneWikiTests-Info.plist */,
+				1A42C8BA1337538D00298961 /* InfoPlist.strings */,
+				1A42C8BD1337538D00298961 /* iPhoneWikiTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A42C88C1337538D00298961 /* iPhoneWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A42C8C41337538D00298961 /* Build configuration list for PBXNativeTarget "iPhoneWiki" */;
+			buildPhases = (
+				1A42C8891337538D00298961 /* Sources */,
+				1A42C88A1337538D00298961 /* Frameworks */,
+				1A42C88B1337538D00298961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneWiki;
+			productName = iPhoneWiki;
+			productReference = 1A42C88D1337538D00298961 /* iPhoneWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A42C8B01337538D00298961 /* iPhoneWikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A42C8C71337538D00298961 /* Build configuration list for PBXNativeTarget "iPhoneWikiTests" */;
+			buildPhases = (
+				1A42C8AC1337538D00298961 /* Sources */,
+				1A42C8AD1337538D00298961 /* Frameworks */,
+				1A42C8AE1337538D00298961 /* Resources */,
+				1A42C8AF1337538D00298961 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A42C8B61337538D00298961 /* PBXTargetDependency */,
+			);
+			name = iPhoneWikiTests;
+			productName = iPhoneWikiTests;
+			productReference = 1A42C8B11337538D00298961 /* iPhoneWikiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A42C8841337538D00298961 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1A42C8871337538D00298961 /* Build configuration list for PBXProject "iPhoneWiki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A42C8821337538D00298961;
+			productRefGroup = 1A42C88E1337538D00298961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A42C88C1337538D00298961 /* iPhoneWiki */,
+				1A42C8B01337538D00298961 /* iPhoneWikiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A42C88B1337538D00298961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42C89C1337538D00298961 /* InfoPlist.strings in Resources */,
+				1A42C8A51337538D00298961 /* MainWindow.xib in Resources */,
+				1A42C8AB1337538D00298961 /* iPhoneWikiViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A42C8AE1337538D00298961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42C8BC1337538D00298961 /* InfoPlist.strings in Resources */,
+				1A42C8BF1337538D00298961 /* iPhoneWikiTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A42C8AF1337538D00298961 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A42C8891337538D00298961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42C89F1337538D00298961 /* main.m in Sources */,
+				1A42C8A21337538D00298961 /* iPhoneWikiAppDelegate.m in Sources */,
+				1A42C8A81337538D00298961 /* iPhoneWikiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A42C8AC1337538D00298961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42C8C11337538D00298961 /* iPhoneWikiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A42C8B61337538D00298961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A42C88C1337538D00298961 /* iPhoneWiki */;
+			targetProxy = 1A42C8B51337538D00298961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A42C89A1337538D00298961 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A42C89B1337538D00298961 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A42C8A31337538D00298961 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A42C8A41337538D00298961 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1A42C8A91337538D00298961 /* iPhoneWikiViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A42C8AA1337538D00298961 /* en */,
+			);
+			name = iPhoneWikiViewController.xib;
+			sourceTree = "<group>";
+		};
+		1A42C8BA1337538D00298961 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A42C8BB1337538D00298961 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A42C8C21337538D00298961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A42C8C31337538D00298961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1A42C8C51337538D00298961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneWiki/iPhoneWiki-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneWiki/iPhoneWiki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A42C8C61337538D00298961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneWiki/iPhoneWiki-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneWiki/iPhoneWiki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A42C8C81337538D00298961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhoneWiki.app/iPhoneWiki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneWikiTests/iPhoneWikiTests-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneWikiTests/iPhoneWikiTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A42C8C91337538D00298961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhoneWiki.app/iPhoneWiki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneWikiTests/iPhoneWikiTests-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneWikiTests/iPhoneWikiTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A42C8871337538D00298961 /* Build configuration list for PBXProject "iPhoneWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A42C8C21337538D00298961 /* Debug */,
+				1A42C8C31337538D00298961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A42C8C41337538D00298961 /* Build configuration list for PBXNativeTarget "iPhoneWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A42C8C51337538D00298961 /* Debug */,
+				1A42C8C61337538D00298961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A42C8C71337538D00298961 /* Build configuration list for PBXNativeTarget "iPhoneWikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A42C8C81337538D00298961 /* Debug */,
+				1A42C8C91337538D00298961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A42C8841337538D00298961 /* Project object */;
+}
