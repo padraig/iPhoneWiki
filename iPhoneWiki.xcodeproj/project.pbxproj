@@ -22,6 +22,8 @@
 		1A42C8BC1337538D00298961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C8BA1337538D00298961 /* InfoPlist.strings */; };
 		1A42C8BF1337538D00298961 /* iPhoneWikiTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C8BE1337538D00298961 /* iPhoneWikiTests.h */; };
 		1A42C8C11337538D00298961 /* iPhoneWikiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C8C01337538D00298961 /* iPhoneWikiTests.m */; };
+		1A42C8CB1337556100298961 /* 300px-IPhone_4_in_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C8CA1337556100298961 /* 300px-IPhone_4_in_hand.png */; };
+		1A42C8CD1337559A00298961 /* 300px-IPhone_4_in_handhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C8CC1337559A00298961 /* 300px-IPhone_4_in_handhd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +41,24 @@
 		1A42C8911337538D00298961 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A42C8931337538D00298961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A42C8951337538D00298961 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1A42C8991337538D00298961 /* iPhoneWiki-Info.plist */ = {isa = PBXFileReference; path = "iPhoneWiki-Info.plist"; sourceTree = "<group>"; };
+		1A42C8991337538D00298961 /* iPhoneWiki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneWiki-Info.plist"; sourceTree = "<group>"; };
 		1A42C89B1337538D00298961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1A42C89D1337538D00298961 /* iPhoneWiki-Prefix.pch */ = {isa = PBXFileReference; path = "iPhoneWiki-Prefix.pch"; sourceTree = "<group>"; };
+		1A42C89D1337538D00298961 /* iPhoneWiki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhoneWiki-Prefix.pch"; sourceTree = "<group>"; };
 		1A42C89E1337538D00298961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A42C8A01337538D00298961 /* iPhoneWikiAppDelegate.h */ = {isa = PBXFileReference; path = iPhoneWikiAppDelegate.h; sourceTree = "<group>"; };
+		1A42C8A01337538D00298961 /* iPhoneWikiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneWikiAppDelegate.h; sourceTree = "<group>"; };
 		1A42C8A11337538D00298961 /* iPhoneWikiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneWikiAppDelegate.m; sourceTree = "<group>"; };
 		1A42C8A41337538D00298961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		1A42C8A61337538D00298961 /* iPhoneWikiViewController.h */ = {isa = PBXFileReference; path = iPhoneWikiViewController.h; sourceTree = "<group>"; };
+		1A42C8A61337538D00298961 /* iPhoneWikiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneWikiViewController.h; sourceTree = "<group>"; };
 		1A42C8A71337538D00298961 /* iPhoneWikiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneWikiViewController.m; sourceTree = "<group>"; };
 		1A42C8AA1337538D00298961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iPhoneWikiViewController.xib; sourceTree = "<group>"; };
 		1A42C8B11337538D00298961 /* iPhoneWikiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneWikiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A42C8B91337538D00298961 /* iPhoneWikiTests-Info.plist */ = {isa = PBXFileReference; path = "iPhoneWikiTests-Info.plist"; sourceTree = "<group>"; };
+		1A42C8B91337538D00298961 /* iPhoneWikiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneWikiTests-Info.plist"; sourceTree = "<group>"; };
 		1A42C8BB1337538D00298961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1A42C8BD1337538D00298961 /* iPhoneWikiTests-Prefix.pch */ = {isa = PBXFileReference; path = "iPhoneWikiTests-Prefix.pch"; sourceTree = "<group>"; };
+		1A42C8BD1337538D00298961 /* iPhoneWikiTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhoneWikiTests-Prefix.pch"; sourceTree = "<group>"; };
 		1A42C8BE1337538D00298961 /* iPhoneWikiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneWikiTests.h; sourceTree = "<group>"; };
 		1A42C8C01337538D00298961 /* iPhoneWikiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneWikiTests.m; sourceTree = "<group>"; };
+		1A42C8CA1337556100298961 /* 300px-IPhone_4_in_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "300px-IPhone_4_in_hand.png"; sourceTree = "<group>"; };
+		1A42C8CC1337559A00298961 /* 300px-IPhone_4_in_handhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "300px-IPhone_4_in_handhd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 		1A42C8821337538D00298961 = {
 			isa = PBXGroup;
 			children = (
+				1A42C8CC1337559A00298961 /* 300px-IPhone_4_in_handhd.png */,
+				1A42C8CA1337556100298961 /* 300px-IPhone_4_in_hand.png */,
 				1A42C8971337538D00298961 /* iPhoneWiki */,
 				1A42C8B71337538D00298961 /* iPhoneWikiTests */,
 				1A42C8901337538D00298961 /* Frameworks */,
@@ -225,6 +231,8 @@
 				1A42C89C1337538D00298961 /* InfoPlist.strings in Resources */,
 				1A42C8A51337538D00298961 /* MainWindow.xib in Resources */,
 				1A42C8AB1337538D00298961 /* iPhoneWikiViewController.xib in Resources */,
+				1A42C8CB1337556100298961 /* 300px-IPhone_4_in_hand.png in Resources */,
+				1A42C8CD1337559A00298961 /* 300px-IPhone_4_in_handhd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +369,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoneWiki/iPhoneWiki-Prefix.pch";
 				INFOPLIST_FILE = "iPhoneWiki/iPhoneWiki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -374,7 +384,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoneWiki/iPhoneWiki-Prefix.pch";
 				INFOPLIST_FILE = "iPhoneWiki/iPhoneWiki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
